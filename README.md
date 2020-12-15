@@ -303,7 +303,7 @@ This was my first solo jaunt into scraping and analyzing data - and I'm at the m
 
 There are many improvements to be made, but I learned a lot in the process!
 
-In the end, I wound up with 1434 complete records (characters that had full information: race, gender, killed/not killed). Because there is still a lot of missing data, it's not fair to make general conclusions about all horror movies, but for a discussion of what I found in the data, see the analysis_and_visulization file.
+In the end, I wound up with 1434 complete records (characters that had full information: race, gender, killed/not killed). Because there is still a lot of missing data, it's not fair to make general conclusions about all horror movies, but for a discussion of what I found in the data, see the link in the Data Visualization section above.
 
 ---
 
