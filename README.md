@@ -29,7 +29,7 @@ For super horror fans like myself, there is a bonus file of Christmas-related ho
 
  ### Files
 
- Yes, yes, I know starting python file names with numbers isn't the best, but I needed to keep them in an organized order. If you need to import them, use importlib.
+ The scripts and raw data files are prefixed with letters so that I could keep them in an organized order.
 
     📦HorrorProject
     ┣ 📂data
@@ -46,41 +46,41 @@ For super horror fans like myself, there is a bonus file of Christmas-related ho
     ┃ ┃ ┣ 📜list_wiki_deaths.csv                        # Character deaths obtained from List of Deaths Wikis
     ┃ ┃ ┗ 📜xmas_horror.csv                             # 🎄 Bonus file of Christmas-related horror movies
     ┃ ┗ 📂raw                                       # These files are numbered corresponding to the script that produced them
-    ┃ ┃ ┣ 📜01_horror_movies_all.csv
-    ┃ ┃ ┣ 📜02_horror_movies_clean_year.csv
-    ┃ ┃ ┣ 📜03_death_list_urls_all.csv
-    ┃ ┃ ┣ 📜03_horror_wiki_urls_all.csv
-    ┃ ┃ ┣ 📜04_death_list_urls_stripped.csv
-    ┃ ┃ ┣ 📜04_horror_movies_stripped.csv
-    ┃ ┃ ┣ 📜04_horror_wiki_urls_stripped.csv
-    ┃ ┃ ┣ 📜05_horror_movies_with_url.csv
-    ┃ ┃ ┣ 📜06_horror_characters_all.csv
-    ┃ ┃ ┣ 📜07_horror_characters_clean.csv
-    ┃ ┃ ┣ 📜08_horror_wiki_deaths_all.csv
-    ┃ ┃ ┣ 📜08_list_wiki_deaths_all.csv
-    ┃ ┃ ┣ 📜09_horror_characters_stripped.csv
-    ┃ ┃ ┣ 📜09_horror_wiki_deaths_stripped.csv
-    ┃ ┃ ┣ 📜09_list_wiki_deaths_stripped.csv
-    ┃ ┃ ┣ 📜10_horror_characters_with_deaths.csv
-    ┃ ┃ ┣ 📜11_horror_characters_with_info.csv
-    ┃ ┃ ┗ 📜13_horror_characters_updated.csv
+    ┃ ┃ ┣ 📜a_horror_movies_all.csv
+    ┃ ┃ ┣ 📜b_horror_movies_clean_year.csv
+    ┃ ┃ ┣ 📜c_death_list_urls_all.csv
+    ┃ ┃ ┣ 📜c_horror_wiki_urls_all.csv
+    ┃ ┃ ┣ 📜d_death_list_urls_stripped.csv
+    ┃ ┃ ┣ 📜d_horror_movies_stripped.csv
+    ┃ ┃ ┣ 📜d_horror_wiki_urls_stripped.csv
+    ┃ ┃ ┣ 📜e_horror_movies_with_url.csv
+    ┃ ┃ ┣ 📜f_horror_characters_all.csv
+    ┃ ┃ ┣ 📜g_horror_characters_clean.csv
+    ┃ ┃ ┣ 📜h_horror_wiki_deaths_all.csv
+    ┃ ┃ ┣ 📜h_list_wiki_deaths_all.csv
+    ┃ ┃ ┣ 📜i_horror_characters_stripped.csv
+    ┃ ┃ ┣ 📜i_horror_wiki_deaths_stripped.csv
+    ┃ ┃ ┣ 📜i_list_wiki_deaths_stripped.csv
+    ┃ ┃ ┣ 📜j_horror_characters_with_deaths.csv
+    ┃ ┃ ┣ 📜k_horror_characters_with_info.csv
+    ┃ ┃ ┗ 📜m_horror_characters_updated.csv
     ┣ 📂notebooks                                       # Data analysis and visualizations
     ┃ ┗ 📜a_and_v.ipynb
     ┣ 📂src
-    ┃ ┣ 📜01_scrape_imdb.py                             # Scrape horror movies from IMDB
-    ┃ ┣ 📜02_clean_year.py                              # Remove movies with no year or year > 2020
-    ┃ ┣ 📜03_scrape_horror_urls.py                      # Get horror wiki and list of death wiki urls
-    ┃ ┣ 📜04_strip_titles.py                            # Strip movie titles for easier comparisons
-    ┃ ┣ 📜05_update_movies_with_url.py                  # Update imbd movie list with horror wiki urls (where they exist)
-    ┃ ┣ 📜06_create_char_df.py                          # Get all characters from horror wikis
-    ┃ ┣ 📜07_clean_chars.py                             # Clean up character names
-    ┃ ┣ 📜08_create_deaths_df.py                        # Collect all character deaths from horror wikis and list of death wikis
-    ┃ ┣ 📜09_strip_chars.py                             # Strip character names for easier comparisons
-    ┃ ┣ 📜10_check_deaths.py                            # Determine if characters were killed
-    ┃ ┣ 📜11_scrape_race_gender.py                      # Find race/gender info of actors on NNDB
-    ┃ ┣ 📜12_downloaded_data.py                         # Get race/gender information that exists elsewhere
-    ┃ ┣ 📜13_update_race_gender.py                      # Update race/gender of actors
-    ┃ ┣ 📜14_refactor_data.py                           # Get useful info for analysis
+    ┃ ┣ 📜a_scrape_imdb.py                             # Scrape horror movies from IMDB
+    ┃ ┣ 📜b_clean_year.py                              # Remove movies with no year or year > 2020
+    ┃ ┣ 📜c_scrape_horror_urls.py                      # Get horror wiki and list of death wiki urls
+    ┃ ┣ 📜d_strip_titles.py                            # Strip movie titles for easier comparisons
+    ┃ ┣ 📜e_update_movies_with_url.py                  # Update imbd movie list with horror wiki urls (where they exist)
+    ┃ ┣ 📜f_create_char_df.py                          # Get all characters from horror wikis
+    ┃ ┣ 📜g_clean_chars.py                             # Clean up character names
+    ┃ ┣ 📜h_create_deaths_df.py                        # Collect all character deaths from horror wikis and list of death wikis
+    ┃ ┣ 📜i_strip_chars.py                             # Strip character names for easier comparisons
+    ┃ ┣ 📜j_check_deaths.py                            # Determine if characters were killed
+    ┃ ┣ 📜k_scrape_race_gender.py                      # Find race/gender info of actors on NNDB
+    ┃ ┣ 📜l_downloaded_data.py                         # Get race/gender information that exists elsewhere
+    ┃ ┣ 📜m_update_race_gender.py                      # Update race/gender of actors
+    ┃ ┣ 📜n_refactor_data.py                           # Get useful info for analysis
     ┃ ┣ 📜utilities.py                                  # Items that are used in other scripts
     ┃ ┗ 📜__init__.py
     ┣ 📜.gitattributes
@@ -112,14 +112,14 @@ For super horror fans like myself, there is a bonus file of Christmas-related ho
     Files for this part of the process: 
 
         # Scrape movie data
-        01_scrape_imdb.py
+        a_scrape_imdb.py
         >>  Creates file(s):
-            01_horror_movies_all.csv
+            a_horror_movies_all.csv
         
         # Remove movies with no year or year > 2020
-        02_clean_year.py 
+        b_clean_year.py 
         >>  Creates file(s):
-            02_horror_movies_clean_year.csv
+            b_horror_movies_clean_year.csv
 
 - A search was performed on [IMDB](www.imdb.com/search/title/?title_type=feature&release_date=1970-01-01,&genres=horror&countries=us&sort=release_date,asc&count=100) with the following parameters:
     - Title Type: Feature Film
@@ -137,7 +137,7 @@ For super horror fans like myself, there is a bonus file of Christmas-related ho
 
     **Note:** the plot given is a snapshot of the plot from the IMDB page of each movie and is generally not complete. Moreover, only Title and Year ended up being useful for our purposes.
 
-- The scraped movie information was then put into a pandas dataframe with the columns named as in (2).
+- The scraped movie information was then put into a pandas dataframe with the columns named as above.
 
 - Movies without a year listed and year greater than current year (2020) are removed.
 
@@ -147,22 +147,22 @@ For super horror fans like myself, there is a bonus file of Christmas-related ho
     Files for this part of the process: 
 
         # Find Horror Film Wiki/List of Death Wiki urls
-        03_scrape_horror_urls.py
+        c_scrape_horror_urls.py
         >>  Creates file(s):
-            03_horror_wiki_urls_all.csv
-            03_death_list_urls_all.csv
+            c_horror_wiki_urls_all.csv
+            c_death_list_urls_all.csv
         
         # Update movies and url dataframes with 'Stripped Title' column
-        04_strip_titles.py             
+        d_strip_titles.py             
         >>  Creates file(s):
-            04_horror_wiki_urls_stripped.csv (horror_wiki_urls.csv)
-            04_death_list_urls_stripped.csv (death_list_urls.csv)
-            04_horror_movies_stripped.csv
+            d_horror_wiki_urls_stripped.csv (horror_wiki_urls.csv)
+            d_death_list_urls_stripped.csv (death_list_urls.csv)
+            d_horror_movies_stripped.csv
         
         # Add Horror Wiki URLs to movie dataframe, in case character matching is desired
-        05_update_movies_with_url.py             
+        e_update_movies_with_url.py             
         >>  Creates file(s):
-            05_horror_movies_with_url.csv (horror_movies.csv)
+            e_horror_movies_with_url.csv (horror_movies.csv)
 
 - The [Horror Film Wiki](https://horror.fandom.com/wiki/Horror_Film_Wiki) was entirely scraped for movies from 1970 to 2020. A dataframe was created with the title, year, and url for the movie was created (horror_wiki_urls).
 
@@ -175,14 +175,14 @@ For super horror fans like myself, there is a bonus file of Christmas-related ho
     Files for this part of the process: 
 
         # Collect actors/characters from each HorrorWiki
-        06_create_char_df.py            
+        f_create_char_df.py            
         >>  Creates file(s):
-            06_horror_characters_all.csv
+            f_horror_characters_all.csv
         
         # Clean up actor/character names
-        07_clean_chars.py  
+        g_clean_chars.py  
         >>  Creates file(s):
-            07_horror_characters_clean.csv  
+            g_horror_characters_clean.csv  
 
 - The 'Cast' section of the Horror Wiki page for each film was scraped to collect characters. 
 
@@ -202,17 +202,17 @@ An example from the movie *Dark Shadows (2012)*:
     Files for this part of the process: 
 
         # Collect dead characters from each Horror Wiki and List of Deaths Wiki
-        08_create_deaths_df.py
+        h_create_deaths_df.py
         >>  Creates file(s):
-            08_horror_wiki_deaths_all.csv
-            08_list_wiki_deaths_all.csv
+            h_horror_wiki_deaths_all.csv
+            h_list_wiki_deaths_all.csv
 
         # Update death and character dataframes with 'stripped character' column
-        09_strip_chars.py 
+        i_strip_chars.py 
         >>  Creates file(s):
-            09_horror_characters_stripped.csv
-            09_horror_wiki_deaths_stripped.csv' (horror_wiki_deaths.csv)
-            09_list_wiki_deaths_stripped.csv (list_wiki_deaths.csv)
+            i_horror_characters_stripped.csv
+            i_horror_wiki_deaths_stripped.csv' (horror_wiki_deaths.csv)
+            i_list_wiki_deaths_stripped.csv (list_wiki_deaths.csv)
 
 - For ease of comparison, new dataframes for each of the horror wiki urls and list of death wiki urls were created, with all dead characters scraped from the pages. Indices from the corresponding url dataframes as well as stripped titles were included.
 
@@ -226,9 +226,9 @@ An example from the movie *Dark Shadows (2012)*:
     Files for this part of the process: 
 
         # Compare characters to list of deaths on Horror Wiki
-        10_check_deaths.py
+        j_check_deaths.py
         >>  Creates file(s):
-            10_horror_characters_with_deaths.csv
+            j_horror_characters_with_deaths.csv
 
 - For each horror wiki index in the character dataframe, all deaths in the corresponding horror wiki deaths and list wiki deaths were collected, matched by stripped title and year.
 
@@ -249,19 +249,19 @@ An example from the movie *Dark Shadows (2012)*:
     Files for this part of the process: 
 
         # Collect actor url/race/gender from NNDB (if available)      
-        11_scrape_race_gender.py
+        k_scrape_race_gender.py
         >>  Created file(s):
-            11_horror_characters_with_info.csv
+            k_horror_characters_with_info.csv
 
         # Obtaining and cleaning race/gender data found on GitHub
-        12_downloaded_data.py
+        l_downloaded_data.py
         >>  Created file(s):
             race_gender.csv
 
         # Missing race/gender added from obtained data (if available)
-        13_update_race_gender.py
+        m_update_race_gender.py
         >>  Created file(s):
-            13_horror_characters_updated.csv (horror_characters.csv)
+            m_horror_characters_updated.csv (horror_characters.csv)
 
 - Each actor was searched for on [NNDB](https://www.nndb.com/).
 
@@ -284,7 +284,7 @@ An example from the movie *Dark Shadows (2012)*:
     Files for this part of the process: 
 
         # Preparing killed vs not killed by race and gender categories
-        14_refactor_data.py
+        n_refactor_data.py
         >>  Created file(s):
             category_counts.csv
         
