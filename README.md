@@ -83,6 +83,7 @@ For super horror fans like myself, there is a bonus file of Christmas-related ho
     ┃ ┣ 📜14_refactor_data.py                           # Get useful info for analysis
     ┃ ┣ 📜utilities.py                                  # Items that are used in other scripts
     ┃ ┗ 📜__init__.py
+    ┣ 📜.gitattributes
     ┣ 📜.gitignore
     ┣ 📜LICENSE.txt
     ┗ 📜README.md
