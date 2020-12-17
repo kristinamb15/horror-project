@@ -12,7 +12,7 @@ Data scraping initially began 2020-12-08.
 
 Here's the important stuff up front. If you want to read more about the methodology of the project, continue on!
 
-To see the analysis of the data, you can view the [Analysis and Visualization notebook](https://nbviewer.jupyter.org/github/kristinamb15/horror-project/blob/main/notebooks/analysis_and_visualization.ipynb).
+To see the analysis of the data, you can view the [Analysis and Visualization notebook](https://nbviewer.jupyter.org/github/kristinamb15/horror-project/blob/main/notebooks/a_and_v.ipynb).
 
 For super horror fans like myself, there is a bonus file of Christmas-related horror movies, created by querying the horror_movies dataframe for plots that include the word 'Christmas.' The script for this is not included, but it can be done as follows:
 
@@ -65,7 +65,7 @@ For super horror fans like myself, there is a bonus file of Christmas-related ho
     ┃ ┃ ┣ 📜11_horror_characters_with_info.csv
     ┃ ┃ ┗ 📜13_horror_characters_updated.csv
     ┣ 📂notebooks                                       # Data analysis and visualizations
-    ┃ ┗ 📜analysis_and_visualization.ipynb
+    ┃ ┗ 📜a_and_v.ipynb
     ┣ 📂src
     ┃ ┣ 📜01_scrape_imdb.py                             # Scrape horror movies from IMDB
     ┃ ┣ 📜02_clean_year.py                              # Remove movies with no year or year > 2020
@@ -290,7 +290,7 @@ An example from the movie *Dark Shadows (2012)*:
         # Discussion and visualizations
         analysis_and_visualization.ipynb
 
-Data analysis and visualization was done in a Jupyter notebook, to easily see everything inline. See the [Analysis and Visualization notebook](https://nbviewer.jupyter.org/github/kristinamb15/horror-project/blob/main/notebooks/analysis_and_visualization.ipynb) for details.
+Data analysis and visualization was done in a Jupyter notebook, to easily see everything inline. See the [Analysis and Visualization notebook](https://nbviewer.jupyter.org/github/kristinamb15/horror-project/blob/main/notebooks/a_and_v.ipynb) for details.
 
 ---
 
