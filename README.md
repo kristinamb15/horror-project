@@ -65,7 +65,6 @@ For super horror fans like myself, there is a bonus file of Christmas-related ho
     ┃ ┃ ┣ 📜11_horror_characters_with_info.csv
     ┃ ┃ ┗ 📜13_horror_characters_updated.csv
     ┣ 📂notebooks                                       # Data analysis and visualizations
-    ┃ ┣ 📜analysis_and_visualization.html
     ┃ ┗ 📜analysis_and_visualization.ipynb
     ┣ 📂src
     ┃ ┣ 📜01_scrape_imdb.py                             # Scrape horror movies from IMDB
