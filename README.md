@@ -322,3 +322,5 @@ In the end, I wound up with 1434 complete records (characters that had full info
 - While I did my best to match up movies by year, there could be some movies with the same title where errors were introduced in checking deaths. It's also possible that misspellings of actor/character/movie names resulted in matches not happening.
 
 - It would be nice to write a script to update all the data files to add on titles for a specific year. This would be easy to do for IMDB and the Horror Wiki, but the List of Deaths Wiki was not sorted by year, so that could be challenging. 
+
+- Use of the nltk package for Natural Language Processing would make cleaning of the character/actor names simpler.
