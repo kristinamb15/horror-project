@@ -64,7 +64,7 @@ For super horror fans like myself, there is a bonus file of Christmas-related ho
     ┃ ┃ ┣ 📜j_horror_characters_with_deaths.csv
     ┃ ┃ ┣ 📜k_horror_characters_with_info.csv
     ┃ ┃ ┗ 📜m_horror_characters_updated.csv
-    ┣ 📂notebooks                                       # Data analysis and visualizations
+    ┣ 📂notebooks                                      # Data analysis and visualizations
     ┃ ┗ 📜a_and_v.ipynb
     ┣ 📂src
     ┃ ┣ 📜a_scrape_imdb.py                             # Scrape horror movies from IMDB
@@ -81,7 +81,7 @@ For super horror fans like myself, there is a bonus file of Christmas-related ho
     ┃ ┣ 📜l_downloaded_data.py                         # Get race/gender information that exists elsewhere
     ┃ ┣ 📜m_update_race_gender.py                      # Update race/gender of actors
     ┃ ┣ 📜n_refactor_data.py                           # Get useful info for analysis
-    ┃ ┣ 📜utilities.py                                  # Items that are used in other scripts
+    ┃ ┣ 📜utilities.py                                 # Items that are used in other scripts
     ┃ ┗ 📜__init__.py
     ┣ 📜.gitattributes
     ┣ 📜.gitignore
